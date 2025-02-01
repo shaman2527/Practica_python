@@ -14,3 +14,8 @@ for archivo in os.listdir(carpeta):
         contador += 1
 
 print("¡Archivos renombrados con éxito!")
+
+
+
+
+
