@@ -8,9 +8,9 @@ print(f"Carpeta creada con éxito {crear_carpeta}")
 
 crear_carpeta  = "C:/Users/ROBER/Desktop/"
  
-if os.path.exists("C:/Users/ROBER/Desktop/PythonGamer"):
+if os.path.exists("C:/Users/ROBER/Desktop/PythonGamer") :
     for archivo in os.listdir(crear_carpeta):
-        print("El archivo es: encontrado ", archivo)
+        print(f"El archivo es: encontrado {crear_carpeta, archivo.upper()}")
         
 else:
     print("La ruta no existe")
