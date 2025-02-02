@@ -1,3 +1,8 @@
-Githubb = "Haciendo prueba de github"
+import asyncio
 
-print(Githubb)
+async def main():
+    print('Hello ...')
+    await asyncio.sleep(10)
+    print('... World!')
+    
+asyncio.run(main())    
