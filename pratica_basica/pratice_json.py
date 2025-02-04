@@ -6,7 +6,9 @@ datos_a_guardar = [
     {"nombre": "Juan", "apellido": "Perez", "edad": 25},
     {"nombre": "Maria", "apellido": "Gomez", "edad": 30},
     {"nombre": "Jose", "apellido": "Garcia", "edad": 45},
-    {"nombre": "Ana", "apellido": "Gutierrez", "edad": 35}
+    {"nombre": "Ana", "apellido": "Gutierrez", "edad": 35},
+    {"nombre": "Roberth", "apellido": "Silva", "edad": 35}
+    
 ]
 
 # Guardar los datos en el archivo JSON
